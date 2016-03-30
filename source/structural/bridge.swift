@@ -1,5 +1,5 @@
 /*:
-🌉  Bridge
+🌉 Bridge
 ----------
 
 The bridge pattern is used to separate the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction.
@@ -29,13 +29,13 @@ class RemoteControl: Switch {
 
 class TV: Appliance {
     func run() {
-        println("tv turned on");
+        print("tv turned on");
     }
 }
 
 class VacuumCleaner: Appliance {
     func run() {
-        println("vacuum cleaner turned on")
+        print("vacuum cleaner turned on")
     }
 }
 /*:
